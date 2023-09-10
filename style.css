@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+/* PRIMARY-NAVBAR */
+
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.nav-logo{
+    height:50px;
+    width:100px;
+
+}
+
+.logo{
+    height:50px;
+    width:100%;
+    background:url("Images/amazon_logo.png");
+    /* background-position:center; */
+    background-size: cover;
+
+}
+
+.scroll{
+    border:1.5px solid transparent;
+}
+
+.scroll:hover{
+    border:1.5px solid white;
+}
+
+/* .navbar 2nd box */
+
+.add-para1{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left:15px;
+}
+
+.add-para2{
+    font-size:1rem;
+    margin-left:3px;
+}
+
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+
+
+
+
+/* navbar - box3 */
+
+.nav-search-bar{
+    display:flex;
+    justify-content:space-evenly;
+
+    
+    width:620px;
+    height:40px;
+    border-radius:4px;
+    color:#0f1111;
+    margin:0px 10px;
+    background-color: #0f1111;
+     
+}
+
+.nav-search-bar:hover{
+    border:2px solid #febd86;
+}
+
+#search-select{
+    width:52px;
+    /* height:40px; */
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    
+    text-align:center;
+    background-color:#f3f3f3;
+    border:none;
+
+
+}
+
+#search-amazon{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+
+#search-icon{
+    width:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.2rem;
+    background-color:#febd86;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* navbar - box4 */
+
+span{
+    font-size:0.7rem;
+}
+
+.nav-second{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+/* navbar box6 */
+.nav-cart i{
+    font-size:30px;
+}
+
+.nav-cart{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+
+/* SECONDARY-NAVBAR */
+.sec-nav{
+    height:40px;
+    background-color: #232f3e;
+    color: white;
+
+    display:flex;
+    
+    align-items:center;
+
+
+}
+
+/* Secondarty nav left box */
+
+
+
+.sec-nav-left a{
+    color: white;
+    text-decoration:none;
+    padding-inline: 9px;  
+}
+
+.sec-nav-left a span{
+    font-size: 14px;
+    
+}
+
+
+
+/* Secondary nav right box */
+
+
+.sec-nav-right a{
+    color:white;
+    font-size:0.85rem;
+    text-decoration: none;
+    margin:5px 0px 6px;
+    padding:8px 9px;
+    font-weight:500;
+}
+
+/* HERO-SECTION */
+
+
+.hero-section{
+    height:310px;
+    background-image:url("Images/Main_Image.jpg");
+    background-size:cover; 
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+
+   
+}
+
+.hero-text{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:97%;
+    margin-bottom:20px;
+    height:40px;
+    background-color:white;
+    font-size:0.85rem;
+    color:#0f1111;
+ 
+}
+
+.hero-text a{
+    color:#007185;
+    
+}
+
+/* CARDS-LAYOUT SECTION */
+
+.cards-layout{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color:#DEEA60
+}
+.card{
+    height:400px;
+    border:none;
+    width:23%;
+    background-color:white;
+    padding:20px 0px 15px;
+    margin-block:15px;
+}
+
+.card-content{
+    margin-inline: 1rem;
+}
+
+.card-content a{
+    text-decoration:none;
+    color:#007185;
+}
+
+
+
+.card-img{
+    height:300px;
+    background-size:cover;
+    margin-block: 1rem;
+    
+}
+
+/* SIGN_IN SECTION */
+.Sign-in{
+    margin-block:20px;
+}
+
+.sign-in-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding-block:20px;
+}
+
+.sign-in-content a{
+    text-decoration:none;
+}
+
+.sign-in-btn{
+    width:230px;
+    border:1px solid #d39b03;
+    text-align:center;
+    border-radius:5px;
+    padding-block:5px;
+    margin-block:5px;
+    font-size:0.80rem;
+    background-color:#F5C954;
+    color:black;
+    font-weight:700;
+
+}
+
+.signindiv1{
+    font-size:0.85rem;
+}
+
+.signindiv2{
+    font-size:0.82rem;
+}
+
+
+/* FOOTRER */
+
+footer{
+    color:white;
+}
+
+.back-to-top{
+    color:white;
+    background-color: #37475A;
+    font-size:0.81rem;
+    text-align:center;
+    padding-block:18px;
+    
+}
+
+#back-to-top-link
+{
+    text-decoration: none;
+}
+
+.footer-link-section{
+    padding-top:30px;
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#232F3E;
+
+}
+
+.link-head{
+    font-size:1rem;
+    font-weight:700;
+    line-height:25px;
+}
+
+.links a{
+    text-decoration: none;
+    color:white;
+    font-size:0.85rem;
+}
+
+.links p{
+    line-height:25px;
+}
